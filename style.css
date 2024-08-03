@@ -8,13 +8,15 @@
 }
 
 body {
-    background-color: #353234;
-    /* Light grey background for contrast */
+    background-color: #353234; /* Light grey background for contrast */
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     height: 100vh;
+    background-image: url("Image.jpg"); /* Ensure this path is correct */
+    background-size: cover;
+    background-position: center; /* Optional: center the background image */
 }
 
 .container {
